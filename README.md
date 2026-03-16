@@ -27,6 +27,7 @@ This project integrates **Google Gemini LLM** with **Grafana V12.4** using **Lit
 
 ## 🏗️ Architecture
 
+```mermaid
 graph TD
     User((User)) -->|Port 3000| G[Grafana V12.4]
     
