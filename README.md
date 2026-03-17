@@ -36,7 +36,7 @@ This project integrates **Google Gemini LLM** with **Grafana V12.4** using **Lit
 
 ### 📸 LiteLLM API Verification
 
-#### 1. Request Metadata (PostgreSQL Log)
+#### 1. API Request Call to Gemini Model
 ![LiteLLM Call 1](./images/LiteLLM_API_Call_GeminiLLM_1.png)
 
 #### 2. Gemini Translation Response
@@ -59,5 +59,4 @@ graph TD
     style G fill:#f96,stroke:#333
     style L fill:#5af,stroke:#333
     style P fill:#4b8,stroke:#333
-    style Gemini fill:#fff,stroke:#4285F4,stroke-width:2px```
-
+    style Gemini fill:#fff,stroke:#4285F4,stroke-width:2px
