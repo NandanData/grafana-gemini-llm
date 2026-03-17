@@ -34,6 +34,14 @@ This project integrates **Google Gemini LLM** with **Grafana V12.4** using **Lit
 5. **Inference**: Google Gemini processes the prompt and returns the text.
 6. **Visualization**: Grafana displays the AI response to the user.
 
+### 📸 LiteLLM API Verification
+
+#### 1. Request Metadata (PostgreSQL Log)
+![LiteLLM Call 1](./images/LiteLLM_API_Call_GeminiLLM_1.png)
+
+#### 2. Gemini Translation Response
+![LiteLLM Call 2](./images/LiteLLM_API_Call_GeminiLLM_2.png)
+
 
 ## 🏗️ Architecture
 
@@ -51,12 +59,5 @@ graph TD
     style G fill:#f96,stroke:#333
     style L fill:#5af,stroke:#333
     style P fill:#4b8,stroke:#333
-    style Gemini fill:#fff,stroke:#4285F4,stroke-width:2px
+    style Gemini fill:#fff,stroke:#4285F4,stroke-width:2px```
 
-### 📸 LiteLLM API Verification
-
-#### 1. Request Metadata (PostgreSQL Log)
-![LiteLLM Call 1](./images/LiteLLM_API_Call_GeminiLLM_1.png)
-
-#### 2. Gemini Translation Response
-![LiteLLM Call 2](./images/LiteLLM_API_Call_GeminiLLM_2.png)
